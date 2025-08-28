@@ -22,6 +22,8 @@ try:
     file.close()
 except FileNotFoundError:
     print("File not found. Please check the filename and try again.")
+finally:
+    file.close
 
 
 
