@@ -18,12 +18,12 @@ user=input("filename:")
 # This code reads a file specified by the user and handles the case where the file does not
 try:
     file=open(f"{user}", 'r')
-    print(file.read())
-    file.close()
+    print(file.read()
 except FileNotFoundError:
     print("File not found. Please check the filename and try again.")
 finally:
-    file.close
+    file.close()
+
 
 
 
